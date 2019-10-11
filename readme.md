@@ -61,7 +61,7 @@
 
  meand we can join all these amazing commands together :)
 
-##redirecting
+## redirecting
 ### this is redirecting of stdout
  ls > file     will put the list short print into the file
 
@@ -107,3 +107,9 @@ for example
  you can get a PID (process id) from your ps
 
  then use kill <PID> to terminate the process
+
+ #### sending processes to the background
+
+ sleep 100 will sleep your machine for 100 seconds (foreground)
+
+ sleep 100 & will send this sleep to the background (basically wont do anything but can be viewed by ps aux)
